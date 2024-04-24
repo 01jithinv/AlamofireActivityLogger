@@ -2,23 +2,23 @@
 
 abstract_target 'alamofire_activity_logger' do
 	use_frameworks!
-	pod 'Alamofire', '~> 4.7'
+	pod 'Alamofire', '~> 5.9.1'
     pod 'AlamofireActivityLogger', :path => '.'
     
     target 'ios' do
-        platform :ios, '9.0'
+        platform :ios, '14.0'
     end
     
     target 'macos' do
-        platform :osx, '10.11'
+        platform :osx, '14.0'
     end
     
     target 'watchos Extension' do
-        platform :watchos, '2.0'
+        platform :watchos, '510'
     end
     
     target 'tvos' do
-        platform :tvos, '9.0'
+        platform :tvos, '14.0'
     end
     
 end
